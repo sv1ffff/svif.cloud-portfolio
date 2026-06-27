@@ -1,0 +1,238 @@
+{
+    "about": {
+        "intro": "**Temiz ve sürdürülebilir sistemler** kurmaya odaklanan bir *Full Stack & Bot Geliştiriciyim*.",
+        "description": "Sürekli **yeni şeyler öğrenmeyi** seven, öğrendiklerini pratiğe dökmeye çalışan biriyim. *Web* ve *masaüstü* uygulamaları geliştiriyorum. Basit, **pratik** ve **sürdürülebilir** araçlarla uğraşmayı seviyorum.",
+        "full": "Selam, ben **Saif Fikry**, **18 yaşında** ve **5 yıllık** kodlama deneyimine sahip bir geliştiriciyim. Kendimi büyük ölçüde kendi projelerim ve denemelerim üzerinden geliştirdim.\n\nAğırlıklı olarak web geliştirme tarafında çalışıyorum; *React*, *Next.js*, *Laravel*, *TailwindCSS*, *PostgreSQL* ve *MySQL* gibi teknolojileri kullanıyorum. Bunların yanında *WinForms*, *C#* ve *Rust* ile masaüstü uygulamaları, *FFmpeg* ve *yt-dlp* gibi araçlarla da çeşitli projeler geliştiriyorum.\n\nYeni bir teknoloji ya da araç gördüğümde genellikle denemeye başlıyorum; öğrenmeyi seven biriyim ve bu da beni sürekli farklı alanlara çekiyor.\n\nProjelerimin olabildiğince **temiz, anlaşılır ve sürdürülebilir** olmasına önem veriyorum. Bu konuda biraz **takıntılıyım**; bazen gereksiz olduğunu bilsem bile kendi işimi zorlaştırabiliyorum.\n\nŞu anki hedefim, özellikle **backend ve sistem tasarımı** alanında gelişmek ve projelerimi daha profesyonel hale getirmek. Bunun yanında kendi sistemlerimi, kütüphanelerimi ve basit, pratik araçlar üretmek istiyorum."
+    },
+    "manifesto": [
+        "RADICAL TRANSPARENCY",
+        "INTENTIONAL MINIMALISM",
+        "ARCHITECTURAL INTEGRITY",
+        "FIRST PRINCIPLES THINKING",
+        "PERFORMANCE WITHOUT COMPROMISE",
+        "SCALABLE VISION"
+    ],
+    "projects": [
+        {
+            "id": "1",
+            "title": "Aether Media",
+            "category": "Medya Aracı",
+            "year": "2026",
+            "description": "Aether Media, kullanıcıların medya dosyalarını (video, ses, görsel) toplu olarak hızlı, güvenli ve kolay bir şekilde dönüştürmelerini, sıkıştırmalarını, boyutlandırmalarını ve yeniden isimlendirmelerini sağlayan bir medya işleme aracıdır.\n\nRust dilinin performansı ve Tauri'nin hafif yapısı üzerine inşa edilmiştir. Arka planda FFmpeg'in gücünü kullanarak, karmaşık medya işlemlerini modern bir arayüzle sunar. Dosyalarınız asla bir sunucuya yüklenmez; tüm işlemler tamamen yerel olarak kendi cihazınızda gerçekleşir.",
+            "image": "/projects/20260427093247885.jpg",
+            "repo": "https://github.com/xkintaro/aether-media",
+            "stack": [
+                "FFmpeg",
+                "Rust",
+                "Tauri",
+                "React",
+                "TailwindCSS"
+            ]
+        },
+        {
+            "id": "2",
+            "title": "Aether JS",
+            "category": "Kütüphane",
+            "year": "2026",
+            "description": "Aether JS, modern web geliştirme için tasarlanmış, headless ve utility-first bir JavaScript etkileşim yöneticisidir. Karmaşık JavaScript kodları yazmak yerine, yalnızca HTML data-aether-* niteliklerini kullanarak tamamen erişilebilir (a11y) modallar, sekmeler ve akordeonlar oluşturmanızı sağlar. TailwindCSS ve benzeri framework'lerle kusursuz uyum sağlayan kütüphane, stili tamamen size bırakarak durum yönetimine odaklanır. Odak hapsetme, dinamik DOM gözlemi, URL senkronizasyonu ve tema yönetimi sunar.",
+            "image": "/projects/20260427093247620.jpg",
+            "demo": "https://xkintaro.github.io/aether-js-documentation/en.html",
+            "repo": "https://github.com/xkintaro/aether-js",
+            "stack": [
+                "JavaScript"
+            ]
+        },
+        {
+            "id": "3",
+            "title": "File Manager",
+            "category": "Web Uygulaması",
+            "year": "2025",
+            "description": "File Manager, cyberpunk esintili bir arayüze sahip, self-hosted bir dosya yönetimi uygulamasıdır. SQLite destekli şık ve modern bir web arayüzü üzerinden her türlü dosyayı yüklemenize, düzenlemenize, etiketlemenize ve filtrelemenize olanak tanır — harici bir veritabanı gerektirmez.\n\nTüm dosyalar yerel olarak makinenizde saklanır — bulut yok, üçüncü taraf sunucular yok. Dosyalarınızı yükleyin, etiketler ve anahtar kelimeler atayın ve güçlü filtreleme ile anında bulun. Uygulama, resimler ve videolar için otomatik olarak thumbnails oluşturarak tüm arşivinize görsel bir genel bakış sunar.",
+            "image": "/projects/20260305210513749.jpg",
+            "repo": "https://github.com/xkintaro/file-manager",
+            "stack": [
+                "React",
+                "TailwindCSS",
+                "Node.js",
+                "SQLite"
+            ]
+        },
+        {
+            "id": "4",
+            "title": "Vexflix",
+            "category": "Web Uygulaması",
+            "year": "2026",
+            "description": "Vexflix, geniş bir film ve dizi kütüphanesini doğrudan tarayıcınıza getiren modern bir akış platformudur. Performans ve kullanıcı deneyimi odaklı olarak tasarlanan平台, kesintisiz izleme, özenle seçilmiş koleksiyonlar ve temiz, sezgisel bir arayüz sunar.",
+            "image": "/projects/vexflix.jpeg",
+            "demo": "https://vexflix.fun",
+            "repo": "https://github.com/sv1ffff",
+            "stack": [
+                "Next.js",
+                "React",
+                "TailwindCSS",
+                "Node.js"
+            ]
+        },
+        {
+            "id": "5",
+            "title": "Santafy",
+            "category": "Web Uygulaması",
+            "year": "2026",
+            "description": "Santafy, en sevdiğiniz parçaları keşfetmenizi, düzenlemenizi ve dinlemenizi sağlayan bir müzik akış web uygulamasıdır. Şık arayüzü ve akıcı oynatma özellikleriyle müzik deneyiminizi dönüştürür.",
+            "image": "/projects/santafy.jpeg",
+            "demo": "https://santafy.site",
+            "repo": "https://github.com/sv1ffff",
+            "stack": [
+                "Next.js",
+                "React",
+                "TailwindCSS",
+                "Node.js"
+            ]
+        },
+        {
+            "id": "6",
+            "title": "DevxSq",
+            "category": "Web Uygulaması",
+            "year": "2026",
+            "description": "DevxSq, programcılar için araçlar, kaynaklar ve işbirlikçi bir alan sunan, geliştirici odaklı bir platformdur. Kod parçacıkları, proje ilhamı veya çalışmalarınızı sergilemek için bir yer arıyorsanız, DevxSq size gereken her şeyi sunar.",
+            "image": "/projects/devx.jpeg",
+            "demo": "https://devxsq.online",
+            "repo": "https://github.com/sv1ffff",
+            "stack": [
+                "Next.js",
+                "React",
+                "TailwindCSS",
+                "TypeScript"
+            ]
+        },
+        {
+            "id": "7",
+            "title": "GXCHub",
+            "category": "Web Uygulaması",
+            "year": "2026",
+            "description": "GXCHub, oyuncuların bağlantı kurabileceği, paylaşım yapabileceği ve yeni oyunlar keşfedebileceği bir oyun topluluğu merkezidir. Sosyal özellikleri oyun keşfiyle birleştirerek dünya çapındaki oyuncular için canlı bir ekosistem oluşturur.",
+            "image": "/projects/gxchub.jpg",
+            "demo": "https://gxchub.xyz",
+            "repo": "https://github.com/sv1ffff",
+            "stack": [
+                "Next.js",
+                "React",
+                "TailwindCSS",
+                "TypeScript"
+            ]
+        },
+        {
+            "id": "8",
+            "title": "Ahlawy Store",
+            "category": "E-Ticaret",
+            "year": "2025",
+            "description": "Ahlawy Store, sorunsuz bir online alışveriş deneyimi için oluşturulmuş bir e-ticaret platformudur. Ürün listeleme, sepet yönetimi ve temiz, kullanıcı dostu bir arayüz sunar.",
+            "image": "/projects/ahlawystore.png",
+            "stack": [
+                "Framer",
+                "React"
+            ]
+        },
+        {
+            "id": "9",
+            "title": "Awa2el",
+            "category": "Web Uygulaması",
+            "year": "2025",
+            "description": "Awa2el, modern ve sezgisel bir tasarımla içerik ve hizmet sunan bir web platformudur. Erişilebilirlik ve performans odaklı olarak geliştirilmiştir.",
+            "image": "/projects/awa2el.png",
+            "stack": [
+                "Framer",
+                "React"
+            ]
+        },
+        {
+            "id": "10",
+            "title": "Clothes Shop",
+            "category": "E-Ticaret",
+            "year": "2024",
+            "description": "Clothes Shop, özenle seçilmiş giyim koleksiyonları sunan bir online moda mağazasıdır. Şık arayüzüyle akıcı bir alışveriş deneyimi sağlar.",
+            "image": "/projects/clothes-shop.png",
+            "stack": [
+                "Framer",
+                "React"
+            ]
+        },
+        {
+            "id": "11",
+            "title": "Daheha",
+            "category": "Web Uygulaması",
+            "year": "2025",
+            "description": "Daheha, yaratıcı çalışmaları ve fikirleri sergileyen içerik odaklı bir web uygulamasıdır. Sadelik ve temiz tasarım prensipleriyle oluşturulmuştur.",
+            "image": "/projects/daheha.png",
+            "stack": [
+                "Framer",
+                "React"
+            ]
+        },
+        {
+            "id": "12",
+            "title": "First Portfolio",
+            "category": "Portföy",
+            "year": "2024",
+            "description": "Web geliştirme yolculuğumun başlangıcını işaret eden ilk portföy web sitem. Erken dönem çalışmalarımı ve denemelerimi sergileyen anlamlı bir proje.",
+            "image": "/projects/first-portfolio.png",
+            "stack": [
+                "Framer",
+                "React"
+            ]
+        }
+    ],
+    "roadmap": [
+        {
+            "id": "01",
+            "year": "2022",
+            "description": "Yazılımla ilk kez lisede tanıştım. Nesne tabanlı programlama dersinde C# kullanarak programlamanın temellerini ve mantığını öğrendim.",
+            "stack": [
+                "C#"
+            ]
+        },
+        {
+            "id": "02",
+            "year": "2023",
+            "description": "HTML, CSS ve ASP.NET öğrenerek statik ve dinamik web siteleri geliştirmeye başladım. Bu dönemde projelerimde veritabanı kullanmayı da öğrendim.",
+            "stack": [
+                "HTML",
+                "CSS",
+                "ASP.NET",
+                "MySQL"
+            ]
+        },
+        {
+            "id": "03",
+            "year": "2024",
+            "description": "Lisedeki son yılımdı. CSS ile arayüz geliştirme konusunda kendimi iyice ilerlettim ve staj yaptığım yerde ASP.NET ile çalışmaya devam ettim.",
+            "stack": [
+                "HTML",
+                "CSS",
+                "ASP.NET",
+                "MySQL"
+            ]
+        },
+        {
+            "id": "04",
+            "year": "2025",
+            "description": "Lise sonrasında React, Node.js, Tailwind CSS ve MongoDB gibi modern teknolojilere yöneldim. Bu süreçte birçok web sitesi ve uygulama geliştirdim. Ek olarak Python ile kendi kullanımıma yönelik çeşitli araçlar yazmaya başladım.",
+            "stack": [
+                "React",
+                "Node.js",
+                "TailwindCSS",
+                "MongoDB"
+            ]
+        },
+        {
+            "id": "05",
+            "year": "2026",
+            "description": "PostAjans'ta stajyer olarak çalışmaya başladım ve burada ağırlıklı olarak Laravel üzerine yoğunlaştım. Bunun yanında boş zamanlarımda Next.js ile web projeleri geliştiriyor; Tauri, FFmpeg gibi teknolojileri de kullanarak çeşitli kişisel projeler üretiyorum.",
+            "stack": [
+                "Laravel",
+                "Next.js",
+                "PostgreSQL"
+            ]
+        }
+    ]
+}
