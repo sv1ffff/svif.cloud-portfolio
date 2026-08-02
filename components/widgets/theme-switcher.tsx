@@ -2,7 +2,6 @@
 
 import { Moon, Sun } from "lucide-react";
 import { useTheme } from "next-themes";
-import { flushSync } from "react-dom";
 
 import {
   DropdownMenu,
@@ -11,23 +10,31 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 
-function applyTheme(theme: string, setTheme: (t: string) => void) {
+function getThemeBackground(theme: "light" | "dark"): string {
   const root = document.documentElement;
-  const from = getComputedStyle(root).getPropertyValue("--background").trim();
+  const wasDark = root.classList.contains("dark");
+  root.classList.toggle("dark", theme === "dark");
+  const bg = getComputedStyle(root).getPropertyValue("--background").trim();
+  root.classList.toggle("dark", wasDark);
+  return bg || (theme === "dark" ? "oklch(0.145 0 0)" : "oklch(1 0 0)");
+}
 
-  const update = () => flushSync(() => setTheme(theme));
-
-  if (document.startViewTransition) {
-    document.startViewTransition(update);
-    return;
-  }
+function applyTheme(theme: "light" | "dark", setTheme: (t: string) => void) {
+  const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
   const overlay = document.createElement("div");
   overlay.className = "theme-wipe-overlay";
-  overlay.style.setProperty("--theme-wipe-from", from || "var(--background)");
-  root.appendChild(overlay);
-  update();
-  window.setTimeout(() => overlay.remove(), 3100);
+  overlay.style.setProperty("--theme-wipe-to", getThemeBackground(theme));
+  document.documentElement.appendChild(overlay);
+
+  const finish = () => {
+    overlay.style.webkitMask = "none";
+    overlay.style.mask = "none";
+    setTheme(theme);
+    overlay.remove();
+  };
+
+  window.setTimeout(finish, reduced ? 180 : 3100);
 }
 
 export default function ThemeSwitcher() {
