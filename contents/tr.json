@@ -1,0 +1,422 @@
+{
+    "about": {
+        "intro": "**90'dan fazla açık kaynak projesi** olan, **ölçeklenebilir ve sürdürülebilir sistemler** kuran bir *Full-Stack Mimar ve Sistem Mühendisiyim*.",
+        "description": "Sürekli **yeni şeyler öğrenmeyi** seven, öğrendiklerini pratiğe dökmeye çalışan biriyim. *Web*, *mobil* ve *masaüstü* uygulamaları geliştiriyorum. **Sketchware** ile başlayıp karmaşık dağıtık sistemler inşa etmeye kadar geldim. Basit, **pratik** ve **sürdürülebilir** araçlarla uğraşmayı seviyorum.",
+        "full": "Selam, ben **Saif Fikry**, **Mısırlı** **18 yaşında** bir geliştiriciyim. **5 yıllık** kodlama deneyimine ve GitHub'da **90'dan fazla açık kaynak projesine** sahibim. Kendimi büyük ölçüde kendi projelerim ve denemelerim üzerinden geliştirdim. Yolculuğuma **Sketchware** ile başlayıp zamanla karmaşık full-stack mimariler inşa etmeye evrildim.\n\nProgramlama yolculuğuma **Sketchware** ile başladım — görsel bir Android geliştirme ortamı — bu bana mantık ve problem çözme konusunda ilk tadı verdi. Oradan **HTML, CSS ve JavaScript** ile web geliştirmeye ve sonunda **React, Next.js, Laravel, Node.js** gibi modern framework'lere geçtim.\n\nBugün uzmanlık alanlarım **full-stack web geliştirme**, **Android uygulama geliştirme** (Kotlin & Jetpack Compose), **Discord bot geliştirme**, **sistem mühendisliği** ve **bulut altyapısı**nı kapsıyor. *React*, *Next.js*, *Vue.js*, *Laravel*, *TailwindCSS*, *PostgreSQL*, *MySQL*, *MongoDB*, *Kotlin*, *Docker* ve *Cloudflare* gibi çok çeşitli teknolojilerle çalışıyorum.\n\n**VexFlix** (yüksek performanslı bir streaming platformu) ve **Santafy** (bir müzik streaming ekosistemi) kurucusuyum. Rust/Tauri'de medya işleme araçlarından binlerce kullanıcıya hizmet veren Discord botlarına ve geliştiriciler için ücretsiz API'lere kadar her şeyi inşa ettim.\n\nProjelerimin olabildiğince **temiz, anlaşılır ve sürdürülebilir** olmasına önem veriyorum. Bu konuda biraz **takıntılıyım** — bazen gereksiz olduğunu bilsem bile kendi işimi zorlaştırabiliyorum.\n\nŞu anki hedefim, özellikle **backend ve sistem tasarımı** alanında gelişmek ve projelerimi daha profesyonel hale getirmek. Bunun yanında kendi sistemlerimi, kütüphanelerimi ve gerçek sorunları çözen basit, pratik araçlar üretmek istiyorum."
+    },
+    "manifesto": [
+        "RADICAL TRANSPARENCY",
+        "INTENTIONAL MINIMALISM",
+        "ARCHITECTURAL INTEGRITY",
+        "FIRST PRINCIPLES THINKING",
+        "PERFORMANCE WITHOUT COMPROMISE",
+        "SCALABLE VISION"
+    ],
+    "projects": [
+        {
+            "id": "1",
+            "title": "VexFlix",
+            "category": "Streaming Platform",
+            "year": "2026",
+            "description": "VexFlix, geniş bir film, dizi ve anime kütüphanesini doğrudan tarayıcınıza getiren yüksek performanslı bir streaming platformudur. Özel video oynatıcı, gelişmiş önbellekleme ve reklam ağı entegrasyonu ile yüksek trafik yüklerini sıfır kesintiyle yönetir.",
+            "image": "/projects/new3.png",
+            "demo": "https://vexflix.fun",
+            "repo": "https://github.com/sv1ffff",
+            "stack": [
+                "Next.js",
+                "React",
+                "TailwindCSS",
+                "Node.js",
+                "Firebase"
+            ]
+        },
+        {
+            "id": "2",
+            "title": "Santafy",
+            "category": "Müzik Streaming",
+            "year": "2026",
+            "description": "Santafy, en sevdiğiniz parçaları keşfetmenizi, düzenlemenizi ve dinlemenizi sağlayan ücretsiz bir müzik streaming web uygulamasıdır. Kotlin ve Jetpack Compose ile Android için, şık bir web arayüzü ve akıcı oynatma özellikleriyle müzik deneyiminizi dönüştürür.",
+            "image": "/projects/new2.png",
+            "demo": "https://santafy.site",
+            "repo": "https://github.com/sv1ffff",
+            "stack": [
+                "Next.js",
+                "React",
+                "TailwindCSS",
+                "Kotlin",
+                "Node.js"
+            ]
+        },
+        {
+            "id": "3",
+            "title": "Aether Media",
+            "category": "Medya Aracı",
+            "year": "2026",
+            "description": "Aether Media, kullanıcıların medya dosyalarını (video, ses, görsel) toplu olarak hızlı, güvenli ve kolay bir şekilde dönüştürmelerini, sıkıştırmalarını, boyutlandırmalarını ve yeniden isimlendirmelerini sağlayan bir medya işleme aracıdır.\n\nRust dilinin performansı ve Tauri'nin hafif yapısı üzerine inşa edilmiştir. Arka planda FFmpeg'in gücünü kullanarak, karmaşık medya işlemlerini modern bir arayüzle sunar. Dosyalarınız asla bir sunucuya yüklenmez; tüm işlemler tamamen yerel olarak kendi cihazınızda gerçekleşir.",
+            "image": "/projects/20260427093247885.jpg",
+            "repo": "https://github.com/sv1ffff/aether-media",
+            "stack": [
+                "FFmpeg",
+                "Rust",
+                "Tauri",
+                "React",
+                "TailwindCSS"
+            ]
+        },
+        {
+            "id": "4",
+            "title": "File Manager",
+            "category": "Web Uygulaması",
+            "year": "2025",
+            "description": "File Manager, cyberpunk esintili bir arayüze sahip, self-hosted bir dosya yönetimi uygulamasıdır. SQLite destekli şık ve modern bir web arayüzü üzerinden her türlü dosyayı yüklemenize, düzenlemenize, etiketlemenize ve filtrelemenize olanak tanır — harici bir veritabanı gerektirmez.\n\nTüm dosyalar yerel olarak makinenizde saklanır — bulut yok, üçüncü taraf sunucular yok. Dosyalarınızı yükleyin, etiketler ve anahtar kelimeler atayın ve güçlü filtreleme ile anında bulun. Uygulama, resimler ve videolar için otomatik olarak thumbnails oluşturarak tüm arşivinize görsel bir genel bakış sunar.",
+            "image": "/projects/20260305210513749.jpg",
+            "repo": "https://github.com/sv1ffff/file-manager",
+            "stack": [
+                "React",
+                "TailwindCSS",
+                "Node.js",
+                "SQLite"
+            ]
+        },
+        {
+            "id": "5",
+            "title": "Portföy 2026",
+            "category": "Portföy",
+            "year": "2026",
+            "description": "Yeni kişisel portföy web sitem — projelerimin, becerilerimin ve yolculuğumun minimalist, yüksek performanslı bir vitrini. Modern web teknolojileriyle inşa edilmiş, mimari bütünlük ve performansa odaklanmamı yansıtan temiz, sürükleyici bir tasarıma sahip.",
+            "image": "/projects/new1.png",
+            "demo": "https://svif.online",
+            "repo": "https://github.com/sv1ffff/Animated-Portfolio",
+            "stack": [
+                "Next.js",
+                "React",
+                "TailwindCSS",
+                "TypeScript"
+            ]
+        },
+        {
+            "id": "6",
+            "title": "VexFlix API",
+            "category": "API",
+            "year": "2026",
+            "description": "Streaming platformlarına içerik sağlayan ücretsiz, özel yapım bir film API'si. Temiz bir REST arayüzü üzerinden kapsamlı film verileri, metaveri ve streaming bağlantıları sunar. Geliştiriciler ve içerik platformları için sıfırdan inşa edilmiştir.",
+            "image": "/projects/new4.png",
+            "demo": "https://new.vexflix.fun",
+            "stack": [
+                "Node.js",
+                "Express.js",
+                "MongoDB",
+                "REST API"
+            ]
+        },
+        {
+            "id": "7",
+            "title": "Kuran Web Sitesi",
+            "category": "Web Uygulaması",
+            "year": "2026",
+            "description": "Kutsal Kur'an'a sesli dinleme, çeviri ve arama özellikleriyle kolay erişim sağlayan, güzel tasarlanmış bir Kuran web sitesi. Erişilebilirlik ve temiz, dikkat dağıtmayan bir okuma deneyimi odaklı olarak geliştirilmiştir.",
+            "image": "/projects/new5.png",
+            "repo": "https://github.com/sv1ffff/Quran-Website",
+            "stack": [
+                "Next.js",
+                "React",
+                "TailwindCSS",
+                "TypeScript"
+            ]
+        },
+        {
+            "id": "8",
+            "title": "DevxSq",
+            "category": "Web Uygulaması",
+            "year": "2026",
+            "description": "DevxSq, programcılar için araçlar, kaynaklar ve işbirlikçi bir alan sunan, geliştirici odaklı bir platformdur. Kod parçacıkları, proje ilhamı veya çalışmalarınızı sergilemek için bir yer arıyorsanız, DevxSq size gereken her şeyi sunar.",
+            "image": "/projects/devx.jpeg",
+            "demo": "https://devxsq.online",
+            "repo": "https://github.com/sv1ffff",
+            "stack": [
+                "Next.js",
+                "React",
+                "TailwindCSS",
+                "TypeScript"
+            ]
+        },
+        {
+            "id": "9",
+            "title": "GXCHub",
+            "category": "Web Uygulaması",
+            "year": "2026",
+            "description": "GXCHub, oyuncuların bağlantı kurabileceği, paylaşım yapabileceği ve yeni oyunlar keşfedebileceği bir oyun topluluğu merkezidir. Sosyal özellikleri oyun keşfiyle birleştirerek dünya çapındaki oyuncular için canlı bir ekosistem oluşturur.",
+            "image": "/projects/gxchub.jpg",
+            "demo": "https://gxchub.xyz",
+            "repo": "https://github.com/sv1ffff",
+            "stack": [
+                "Next.js",
+                "React",
+                "TailwindCSS",
+                "TypeScript"
+            ]
+        },
+        {
+            "id": "10",
+            "title": "Animasyonlu Portföy",
+            "category": "Portföy",
+            "year": "2026",
+            "description": "Yaratıcı web tasarımı ve geliştirme becerilerini sergileyen animasyonlu, etkileşimli bir portföy web sitesi. Akıcı animasyonlar, 3D öğeler ve görsel olarak çarpıcı bir arayüz sunar.",
+            "image": "/projects/animated-portfolio.svg",
+            "repo": "https://github.com/sv1ffff/Animated-Portfolio",
+            "stack": [
+                "Next.js",
+                "React",
+                "TailwindCSS",
+                "TypeScript"
+            ]
+        },
+        {
+            "id": "11",
+            "title": "3D Portföy",
+            "category": "Portföy",
+            "year": "2026",
+            "description": "Three.js ve modern web teknolojileriyle inşa edilmiş 3D etkileşimli bir portföy web sitesi. Sürükleyici 3D ortamlar, akıcı kamera kontrolleri ve benzersiz bir uzamsal navigasyon deneyimi sunar.",
+            "image": "/projects/3d-portfolio.svg",
+            "repo": "https://github.com/sv1ffff/3D-PORTFOLIO",
+            "stack": [
+                "React",
+                "Three.js",
+                "TailwindCSS",
+                "TypeScript"
+            ]
+        },
+        {
+            "id": "12",
+            "title": "GTA VI Web Sitesi",
+            "category": "Hayran Sitesi",
+            "year": "2026",
+            "description": "GTA VI'ya adanmış, haberler, medya ve topluluk içeriği sunan bir hayran yapımı web sitesi. Modern, oyun esintili bir tasarım ve akıcı animasyonlarla oluşturulmuştur.",
+            "image": "/projects/gta-vi.svg",
+            "repo": "https://github.com/sv1ffff/GTA-VI",
+            "stack": [
+                "Next.js",
+                "React",
+                "TailwindCSS",
+                "TypeScript"
+            ]
+        },
+        {
+            "id": "13",
+            "title": "Santafy Müzik Botu",
+            "category": "Discord Botu",
+            "year": "2026",
+            "description": "Çeşitli kaynaklardan düşük gecikmeyle müzik akışı sağlayan yüksek kaliteli bir Discord müzik botu. Çalma listesi yönetimi, sıra sistemi ve akıcı ses entegrasyonu sunar.",
+            "image": "/projects/santafy-music-bot.svg",
+            "repo": "https://github.com/sv1ffff/Santafy-Music-V2",
+            "stack": [
+                "Node.js",
+                "Discord.js",
+                "JavaScript"
+            ]
+        },
+        {
+            "id": "14",
+            "title": "Kuran Botu",
+            "category": "Discord Botu",
+            "year": "2026",
+            "description": "Kuran dinleme ve çalışma için bir Discord botu. Birden fazla okuyucu, çeviri ve kullanıcı dostu bir komut arayüzü ile eksiksiz Kuran erişimi sağlar.",
+            "image": "/projects/quran-bot.svg",
+            "repo": "https://github.com/sv1ffff/Quran-Bot-Ori",
+            "stack": [
+                "Node.js",
+                "Discord.js",
+                "JavaScript"
+            ]
+        },
+        {
+            "id": "15",
+            "title": "VexFlix Anime",
+            "category": "Streaming Platform",
+            "year": "2026",
+            "description": "Özenle seçilmiş bir anime serisi ve film kütüphanesi sunan, anime odaklı bir streaming platformu. VexFlix ile aynı yüksek performanslı mimariyle inşa edilmiştir.",
+            "image": "/projects/vexflix-anime.svg",
+            "repo": "https://github.com/sv1ffff/VexFlixAnime",
+            "stack": [
+                "Next.js",
+                "React",
+                "TailwindCSS",
+                "Node.js"
+            ]
+        },
+        {
+            "id": "16",
+            "title": "Ahlawy Store",
+            "category": "E-Ticaret",
+            "year": "2025",
+            "description": "Ahlawy Store, sorunsuz bir online alışveriş deneyimi için oluşturulmuş bir e-ticaret platformudur. Ürün listeleme, sepet yönetimi ve temiz, kullanıcı dostu bir arayüz sunar.",
+            "image": "/projects/ahlawystore.png",
+            "stack": [
+                "Framer",
+                "React"
+            ]
+        },
+        {
+            "id": "17",
+            "title": "Awa2el",
+            "category": "Web Uygulaması",
+            "year": "2025",
+            "description": "Awa2el, modern ve sezgisel bir tasarımla içerik ve hizmet sunan bir web platformudur. Erişilebilirlik ve performans odaklı olarak geliştirilmiştir.",
+            "image": "/projects/awa2el.png",
+            "stack": [
+                "Framer",
+                "React"
+            ]
+        },
+        {
+            "id": "18",
+            "title": "Clothes Shop",
+            "category": "E-Ticaret",
+            "year": "2024",
+            "description": "Clothes Shop, özenle seçilmiş giyim koleksiyonları sunan bir online moda mağazasıdır. Şık arayüzüyle akıcı bir alışveriş deneyimi sağlar.",
+            "image": "/projects/clothes-shop.png",
+            "stack": [
+                "Framer",
+                "React"
+            ]
+        },
+        {
+            "id": "19",
+            "title": "Daheha",
+            "category": "Web Uygulaması",
+            "year": "2025",
+            "description": "Daheha, yaratıcı çalışmaları ve fikirleri sergileyen içerik odaklı bir web uygulamasıdır. Sadelik ve temiz tasarım prensipleriyle oluşturulmuştur.",
+            "image": "/projects/daheha.png",
+            "stack": [
+                "Framer",
+                "React"
+            ]
+        },
+        {
+            "id": "20",
+            "title": "First Portfolio",
+            "category": "Portföy",
+            "year": "2024",
+            "description": "Web geliştirme yolculuğumun başlangıcını işaret eden ilk portföy web sitem. Erken dönem çalışmalarımı ve denemelerimi sergileyen anlamlı bir proje.",
+            "image": "/projects/first-portfolio.png",
+            "stack": [
+                "Framer",
+                "React"
+            ]
+        },
+        {
+            "id": "21",
+            "title": "Next E-Ticaret UI",
+            "category": "E-Ticaret UI",
+            "year": "2026",
+            "description": "Next.js ve Tailwind CSS ile geliştirilmiş modern bir e-ticaret kullanıcı arayüzü. Şık ürün kartları, öne çıkan bir vitrin bölümü ve dönüşüm odaklı bir alışveriş deneyimi için hazırlanmış ödeme bileşenlerini içerir.",
+            "image": "/projects/next-ecommerce.png",
+            "repo": "https://github.com/sv1ffff/Next-e-commerce-ui",
+            "stack": [
+                "Next.js",
+                "React",
+                "TailwindCSS",
+                "TypeScript"
+            ]
+        },
+        {
+            "id": "22",
+            "title": "X Klonu",
+            "category": "Sosyal Medya Klonu",
+            "year": "2026",
+            "description": "Gerçek zamanlı etkileşimlere sahip, tam özellikli bir X (Twitter) klonu. Kimlik doğrulama, gönderi oluşturma, akışlar ve Prisma destekli temiz bir API mimarisi ile modern, duyarlı bir arayüz içerir.",
+            "image": "/projects/x-clone.jpg",
+            "repo": "https://github.com/sv1ffff/x-clone",
+            "stack": [
+                "Next.js",
+                "React",
+                "TailwindCSS",
+                "TypeScript",
+                "Prisma"
+            ]
+        },
+        {
+            "id": "23",
+            "title": "Omnichannel Chatbot",
+            "category": "AI Platformu",
+            "year": "2026",
+            "description": "Görsel bot oluşturucuya sahip, gelişmiş ve kendi kendine barındırılan çok kanallı bir chatbot ve AI platformu. Başlıca mesajlaşma kanallarını bağlayın, sürükle-bırak düğümlerle otomasyon akışları oluşturun, birden fazla LLM entegre edin ve canlı sohbet gelen kutusu ile CRM'i yönetin — ölçeklenebilir bir Turborepo monorepo üzerine inşa edilmiştir.",
+            "image": "/projects/chatbot.svg",
+            "repo": "https://github.com/sv1ffff/Chatbot",
+            "stack": [
+                "Next.js",
+                "React",
+                "TailwindCSS",
+                "TypeScript",
+                "Node.js",
+                "PostgreSQL",
+                "Redis",
+                "Docker"
+            ]
+        }
+    ],
+    "roadmap": [
+        {
+            "id": "01",
+            "year": "2021",
+            "description": "Programlama yolculuğuma **Sketchware** ile başladım — görsel bir Android geliştirme ortamı. Bu, bana bir mobil platformda programlama mantığı, değişkenler, koşullar ve döngüler konusunda ilk girişimi sağladı.",
+            "stack": [
+                "Sketchware"
+            ]
+        },
+        {
+            "id": "02",
+            "year": "2022",
+            "description": "Yazılımla lisede daha resmi olarak tanıştım. Programlamanın temellerini ve mantığını öğrendim ve HTML ile CSS kullanarak ilk web sayfalarımı oluşturmaya başladım.",
+            "stack": [
+                "HTML",
+                "CSS"
+            ]
+        },
+        {
+            "id": "03",
+            "year": "2023",
+            "description": "HTML, CSS ve JavaScript öğrenerek statik ve dinamik web siteleri geliştirmeye başladım. Bu dönemde projelerimde veritabanı kullanmayı da öğrendim.",
+            "stack": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "MySQL"
+            ]
+        },
+        {
+            "id": "04",
+            "year": "2024",
+            "description": "Lisedeki son yılımdı. CSS ile arayüz geliştirme konusunda kendimi iyice ilerlettim ve staj yaptığım yerde web projeleri üzerinde çalışmaya devam ettim.",
+            "stack": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "MySQL"
+            ]
+        },
+        {
+            "id": "05",
+            "year": "2025",
+            "description": "Lise sonrasında React, Node.js, Tailwind CSS ve MongoDB gibi modern teknolojilere yöneldim. Bu süreçte birçok web sitesi ve uygulama geliştirdim. Ek olarak Python ile kendi kullanımıma yönelik çeşitli araçlar yazmaya başladım.",
+            "stack": [
+                "React",
+                "Node.js",
+                "TailwindCSS",
+                "MongoDB"
+            ]
+        },
+        {
+            "id": "06",
+            "year": "2026",
+            "description": "PostAjans'ta stajyer olarak çalışmaya başladım ve burada ağırlıklı olarak Laravel üzerine yoğunlaştım. VexFlix ve Santafy'yi ölçeklenebilir bir şekilde kurdum, Kotlin ile Android geliştirme öğrendim, Discord botları ve ücretsiz API'ler oluşturdum, Tauri, FFmpeg ve bulut altyapısı kullanan çeşitli kişisel projeler geliştirdim.",
+            "stack": [
+                "Laravel",
+                "Next.js",
+                "PostgreSQL",
+                "Kotlin",
+                "Docker"
+            ]
+        }
+    ]
+}

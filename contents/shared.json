@@ -1,0 +1,281 @@
+{
+    "contact": {
+        "location": "Egypt",
+        "email": "santadisx@gmail.com",
+        "phone": "Not added yet."
+    },
+    "social": [
+        {
+            "label": "GitHub",
+            "href": "https://github.com/sv1ffff"
+        },
+        {
+            "label": "Portfolio",
+            "href": "https://svif.online"
+        },
+        {
+            "label": "Instagram",
+            "href": "https://instagram.com/sv1ffff"
+        },
+        {
+            "label": "Email",
+            "href": "mailto:santadisx@gmail.com"
+        },
+        {
+            "label": "Discord",
+            "href": "https://discord.com/users/316126283652399106"
+        }
+    ],
+    "stack": {
+        "frontend": [
+            {
+                "name": "React",
+                "icon": "/stack/react.svg",
+                "featured": true
+            },
+            {
+                "name": "Next.js",
+                "icon": "/stack/nextjs.svg",
+                "featured": true
+            },
+            {
+                "name": "Vue.js",
+                "icon": "/stack/vuedotjs.svg"
+            },
+            {
+                "name": "Nuxt.js",
+                "icon": "/stack/nuxtdotjs.svg"
+            },
+            {
+                "name": "Svelte",
+                "icon": "/stack/svelte.svg"
+            },
+            {
+                "name": "Tailwind CSS",
+                "icon": "/stack/tailwindcss.svg",
+                "featured": true
+            },
+            {
+                "name": "Bootstrap",
+                "icon": "/stack/bootstrap.svg"
+            },
+            {
+                "name": "Sass",
+                "icon": "/stack/sass.svg"
+            },
+            {
+                "name": "Framer Motion",
+                "icon": "/stack/framermotion.svg"
+            },
+            {
+                "name": "Redux",
+                "icon": "/stack/redux.svg"
+            },
+            {
+                "name": "TypeScript",
+                "icon": "/stack/typescript.svg"
+            },
+            {
+                "name": "JavaScript",
+                "icon": "/stack/javascript.svg"
+            },
+            {
+                "name": "Vite",
+                "icon": "/stack/vite.svg"
+            },
+            {
+                "name": "HTML5",
+                "icon": "/stack/html5.svg"
+            },
+            {
+                "name": "CSS3",
+                "icon": "/stack/css3.svg"
+            }
+        ],
+        "backend": [
+            {
+                "name": "Node.js",
+                "icon": "/stack/nodejs.svg"
+            },
+            {
+                "name": "Express.js",
+                "icon": "/stack/express.svg"
+            },
+            {
+                "name": "NestJS",
+                "icon": "/stack/nestjs.svg"
+            },
+            {
+                "name": "Python",
+                "icon": "/stack/python.svg"
+            },
+            {
+                "name": "Django",
+                "icon": "/stack/django.svg"
+            },
+            {
+                "name": "FastAPI",
+                "icon": "/stack/fastapi.svg"
+            },
+            {
+                "name": "Go",
+                "icon": "/stack/go.svg"
+            },
+            {
+                "name": "PHP",
+                "icon": "/stack/php.svg"
+            },
+            {
+                "name": "Laravel",
+                "icon": "/stack/laravel.svg",
+                "featured": true
+            },
+            {
+                "name": "Bun",
+                "icon": "/stack/bun.svg"
+            },
+            {
+                "name": "GraphQL",
+                "icon": "/stack/graphql.svg"
+            },
+            {
+                "name": "REST API",
+                "icon": "/stack/postman.svg"
+            },
+            {
+                "name": "Rust",
+                "icon": "/stack/rust.svg"
+            },
+            {
+                "name": "Discord.js",
+                "icon": "/stack/discordjs.svg"
+            }
+        ],
+        "database": [
+            {
+                "name": "PostgreSQL",
+                "icon": "/stack/postgresql.svg",
+                "featured": true
+            },
+            {
+                "name": "MySQL",
+                "icon": "/stack/mysql.svg",
+                "featured": true
+            },
+            {
+                "name": "MongoDB",
+                "icon": "/stack/mongodb.svg"
+            },
+            {
+                "name": "Redis",
+                "icon": "/stack/redis.svg"
+            },
+            {
+            "name": "SQLite",
+            "icon": "/stack/sqlite.svg"
+            },
+            {
+                "name": "Prisma",
+                "icon": "/stack/prisma.svg"
+            },
+            {
+                "name": "Firebase",
+                "icon": "/stack/firebase.svg"
+            },
+            {
+                "name": "Supabase",
+                "icon": "/stack/supabase.svg"
+            },
+            {
+                "name": "Neon",
+                "icon": "/stack/neon.png"
+            }
+        ],
+        "tools": [
+            {
+                "name": "Git",
+                "icon": "/stack/git.svg"
+            },
+            {
+                "name": "GitHub",
+                "icon": "/stack/github.svg"
+            },
+            {
+                "name": "Docker",
+                "icon": "/stack/docker.svg"
+            },
+            {
+                "name": "Linux",
+                "icon": "/stack/linux.svg"
+            },
+            {
+                "name": "Debian",
+                "icon": "/stack/debian.svg"
+            },
+            {
+                "name": "Windows",
+                "icon": "/stack/windows.svg"
+            },
+            {
+                "name": "Bash",
+                "icon": "/stack/gnubash.svg"
+            },
+            {
+                "name": "Nginx",
+                "icon": "/stack/nginx.svg"
+            },
+            {
+                "name": "Cloudflare",
+                "icon": "/stack/cloudflare.svg"
+            },
+            {
+                "name": "Vercel",
+                "icon": "/stack/vercel.svg"
+            },
+            {
+                "name": "AWS",
+                "icon": "/stack/amazonwebservices.svg"
+            },
+            {
+                "name": "GCP",
+                "icon": "/stack/googlecloud.svg"
+            },
+            {
+                "name": "Figma",
+                "icon": "/stack/figma.svg"
+            },
+            {
+                "name": "Postman",
+                "icon": "/stack/postman.svg"
+            },
+            {
+                "name": "Tauri",
+                "icon": "/stack/tauri.svg"
+            },
+            {
+                "name": "Android Studio",
+                "icon": "/stack/androidstudio.svg"
+            },
+            {
+                "name": "Kotlin",
+                "icon": "/stack/kotlin.svg"
+            },
+            {
+                "name": "Java",
+                "icon": "/stack/java.svg"
+            },
+            {
+                "name": "Flutter",
+                "icon": "/stack/flutter.svg"
+            },
+            {
+                "name": "Dart",
+                "icon": "/stack/dart.svg"
+            },
+            {
+                "name": "Gradle",
+                "icon": "/stack/gradle.svg"
+            }
+        ]
+    }
+}

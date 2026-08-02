@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#0D1117"/>
+  <rect x="1" y="1" width="798" height="598" fill="none" stroke="#30363D" stroke-width="2"/>
+  <g transform="translate(400,265)">
+    <path d="M-130 -20 L-130 80 M-70 -40 L-70 80 M-10 -60 L-10 80" stroke="#00FF9D" stroke-width="5" stroke-linecap="round" opacity="0.35"/>
+    <path d="M50 -60 L50 80 M110 -40 L110 80 M170 -20 L170 80" stroke="#00FF9D" stroke-width="5" stroke-linecap="round" opacity="0.35"/>
+    <path d="M-130 80 Q0 110 170 80" fill="none" stroke="#00FF9D" stroke-width="3" opacity="0.25"/>
+    <g transform="translate(20,-110)">
+      <circle r="26" fill="none" stroke="#00FF9D" stroke-width="2" opacity="0.5"/>
+      <circle r="15" fill="#00FF9D" opacity="0.8"/>
+      <circle r="10" fill="#0D1117"/>
+      <circle r="4" fill="#00FF9D"/>
+    </g>
+    <path d="M-150 -110 h18 M-170 -90 h18 M-160 -130 h18" stroke="#00FF9D" stroke-width="2" opacity="0.5"/>
+    <path d="M170 -120 h18 M150 -100 h18" stroke="#00FF9D" stroke-width="2" opacity="0.4"/>
+  </g>
+  <text x="400" y="480" font-family="monospace" font-size="16" fill="#00FF9D" text-anchor="middle" opacity="0.6">[ QURAN BOT ]</text>
+  <line x1="315" y1="495" x2="485" y2="495" stroke="#30363D" stroke-width="1"/>
+</svg>
