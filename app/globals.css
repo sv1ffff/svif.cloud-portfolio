@@ -176,21 +176,21 @@
 }
 
 ::view-transition-new(root) {
-  animation: theme-reveal 0.9s var(--expo-in) both;
+  mask: url('/shigure-ui-dance.gif') center / 0 no-repeat;
+  animation: scale 3s;
+  animation-fill-mode: both;
 }
 
 ::view-transition-old(root) {
-  animation: theme-fade 0.35s var(--expo-in) both;
+  animation: scale 3s;
+  animation-fill-mode: both;
 }
 
-@keyframes theme-reveal {
-  from { clip-path: circle(0% at 50% 50%); }
-  to { clip-path: circle(140% at 50% 50%); }
-}
-
-@keyframes theme-fade {
-  from { opacity: 1; }
-  to { opacity: 0; }
+@keyframes scale {
+  0% { mask-size: 0; }
+  10% { mask-size: 50vmax; }
+  90% { mask-size: 50vmax; }
+  100% { mask-size: 2000vmax; }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -209,12 +209,10 @@
   z-index: 99999;
   pointer-events: none;
   background: var(--theme-wipe-from, var(--background));
-  animation: theme-wipe 0.9s var(--expo-in) forwards;
-}
-
-@keyframes theme-wipe {
-  from { clip-path: circle(140% at 50% 50%); }
-  to { clip-path: circle(0% at 50% 50%); }
+  -webkit-mask: url('/shigure-ui-dance.gif') center / 0 no-repeat;
+  mask: url('/shigure-ui-dance.gif') center / 0 no-repeat;
+  animation: scale 3s;
+  animation-fill-mode: both;
 }
 
 @layer components {

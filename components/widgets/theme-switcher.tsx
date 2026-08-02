@@ -27,7 +27,7 @@ function applyTheme(theme: string, setTheme: (t: string) => void) {
   overlay.style.setProperty("--theme-wipe-from", from || "var(--background)");
   root.appendChild(overlay);
   update();
-  window.setTimeout(() => overlay.remove(), 900);
+  window.setTimeout(() => overlay.remove(), 3100);
 }
 
 export default function ThemeSwitcher() {
